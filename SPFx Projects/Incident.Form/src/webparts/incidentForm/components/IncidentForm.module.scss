@@ -1,0 +1,105 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.incidentForm {
+	position: relative;
+	color: "[theme: bodyText, default: #323130]";
+	max-width: 980px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.submittingOverlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.75);
+	backdrop-filter: blur(1px);
+	z-index: 20;
+	pointer-events: all;
+}
+
+.submittingSpinner {
+	padding: 16px 20px;
+	border-radius: 8px;
+	background-color: "[theme: white, default: #ffffff]";
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.title {
+	margin: 0 0 16px;
+	font-size: 24px;
+	line-height: 1.3;
+}
+
+.grid {
+	width: 100%;
+	align-items: flex-end;
+}
+
+.gridItem {
+	min-width: 260px;
+	flex: 1 1 320px;
+}
+
+.fieldControl {
+	width: 100%;
+}
+
+.labelRow {
+	display: inline-flex;
+	align-items: center;
+	column-gap: 6px;
+	margin-bottom: 6px;
+}
+
+.fieldLabel {
+	margin: 0;
+}
+
+.labelSuffix {
+	font-style: italic;
+	font-weight: 400;
+	font-size: 12px;
+	color: "[theme: neutralSecondary, default: #605e5c]";
+}
+
+.infoIcon {
+	font-size: 13px;
+	line-height: 1;
+	color: "[theme: themePrimary, default: #0078d4]";
+	cursor: help;
+}
+
+.fullWidth {
+	width: 100%;
+	flex: 1 1 100%;
+}
+
+.fileInput {
+	display: block;
+	margin-top: 8px;
+}
+
+.attachmentText {
+	margin-top: 8px;
+	color: "[theme: neutralSecondary, default: #605e5c]";
+	font-size: 12px;
+}
+
+.attachmentLabelNote {
+	margin-top: 4px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+@media (max-width: 640px) {
+	.title {
+		font-size: 20px;
+	}
+
+	.gridItem {
+		min-width: 100%;
+	}
+}

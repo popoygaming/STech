@@ -1,0 +1,50 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "People Directory From List",
+    "id": "bbe2466e-8e27-4574-8f22-1287f35c2910",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "People Directory From List description"
+      },
+      "longDescription": {
+        "default": "People Directory From List description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.ReadBasic.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Presence.Read.All"
+      }
+    ],
+    "features": [
+      {
+        "title": "people-directory-from-list Feature",
+        "description": "The feature that activates elements of the people-directory-from-list solution.",
+        "id": "77bdffce-cef7-465b-a7cc-0dd28a9b1707",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/people-directory-from-list.sppkg"
+  }
+}

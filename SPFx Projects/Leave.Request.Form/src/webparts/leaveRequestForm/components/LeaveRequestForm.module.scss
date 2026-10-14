@@ -1,0 +1,12 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.leaveRequestForm {
+  overflow: hidden;
+  padding: 1em;
+}
+
+.leaveRequestForm .ms-TextField,
+.leaveRequestForm .ms-Dropdown,
+.leaveRequestForm .ms-DatePicker {
+  width: 100%;
+}

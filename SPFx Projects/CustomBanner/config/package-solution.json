@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Intranet Custom Banner Webpart",
+    "id": "3f0f0e66-099d-4e41-a4a8-2042c52f380b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Intranet Custom Banner description"
+      },
+      "longDescription": {
+        "default": "Intranet Custom Banner description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "intranet custom-banner Feature",
+        "description": "The feature that activates elements of the intranet custom-banner solution.",
+        "id": "dbc7b731-b1bb-4cac-bda8-7c8503d569e6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/intranet-custom-banner.sppkg"
+  }
+}

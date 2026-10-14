@@ -1,0 +1,239 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.accordionWebpart {
+	padding: 0;
+	border-radius: 0;
+	font-family: Aptos, 'Segoe UI Variable', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.light {
+	background: #ffffff;
+	color: #10213a;
+}
+
+.dark {
+	background: #1f2937;
+	color: #f0f5ff;
+}
+
+.editorActionsBar {
+	margin-bottom: 10px;
+}
+
+.editorToolbar {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+
+.editorPanel {
+	margin-bottom: 12px;
+	padding: 12px;
+	border: 1px solid #d7deea;
+	border-radius: 10px;
+	background: #f8fbff;
+}
+
+.dark .editorPanel {
+	border-color: #4b596d;
+	background: #283447;
+}
+
+.editorTitle {
+	font-weight: 600;
+}
+
+.editorRichTextWrap {
+	margin-top: 2px;
+}
+
+.editorFieldLabel {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.editorActions {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+}
+
+.headerArea {
+	margin-bottom: 10px;
+}
+
+.title {
+	margin: 0;
+	line-height: 1.3;
+	font-weight: 700;
+}
+
+.description {
+	margin-top: 6px;
+	line-height: 1.6;
+}
+
+.itemCard {
+	border: 1px solid #d7deea;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.itemCard + .itemCard {
+	margin-top: 18px;
+}
+
+.itemCardActive {
+	border-color: #8eb6e6;
+}
+
+.dark .itemCard {
+	border-color: #4b596d;
+}
+
+.itemButton {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 14px 16px;
+	border: none;
+	cursor: pointer;
+	background: #f8fbff;
+	color: inherit;
+	text-align: left;
+}
+
+.dark .itemButton {
+	background: #283447;
+}
+
+.itemButton:hover {
+	background: #eef5ff;
+}
+
+.dark .itemButton:hover {
+	background: #324257;
+}
+
+.itemTitle {
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.35;
+	padding-right: 12px;
+}
+
+.itemTitleInput {
+	width: 100%;
+	background: transparent;
+	border: 1px dashed rgba(14, 93, 181, 0.45);
+	border-radius: 6px;
+	padding: 4px 8px;
+	margin-right: 12px;
+	font-size: 15px;
+	font-weight: 600;
+	line-height: 1.35;
+	color: inherit;
+}
+
+.itemTitleInput:focus {
+	outline: none;
+	border-color: rgba(14, 93, 181, 0.8);
+	box-shadow: 0 0 0 2px rgba(14, 93, 181, 0.2);
+}
+
+.indicator {
+	font-size: 13px;
+	color: #0e5db5;
+}
+
+.itemContentWrap {
+	display: flex;
+	align-items: center;
+	padding: 0 16px 14px;
+	min-height: 96px;
+}
+
+.itemContent {
+	margin: 0;
+	line-height: 1.5;
+	width: 100%;
+}
+
+.editorContentWrap {
+	width: 100%;
+}
+
+.itemEditActions {
+	display: flex;
+	justify-content: flex-end;
+	margin-bottom: 8px;
+}
+
+.textSmall .itemTitle,
+.textSmall .itemTitleInput {
+	font-size: 13px;
+}
+
+.textSmall .itemContent {
+	font-size: 12px;
+}
+
+.textMedium .itemTitle,
+.textMedium .itemTitleInput {
+	font-size: 15px;
+}
+
+.textMedium .itemContent {
+	font-size: 14px;
+}
+
+.textLarge .itemTitle,
+.textLarge .itemTitleInput {
+	font-size: 18px;
+}
+
+.textLarge .itemContent {
+	font-size: 17px;
+}
+
+.itemContent p,
+.itemContent ul,
+.itemContent ol,
+.itemContent h3,
+.itemContent h4 {
+	margin: 0 0 10px;
+}
+
+.itemContent ul,
+.itemContent ol {
+	padding-left: 18px;
+}
+
+.itemContent a {
+	color: #0e5db5;
+	text-decoration: underline;
+}
+
+.dark .itemContent a {
+	color: #9cc6ff;
+}
+
+@media (max-width: 640px) {
+	.accordionWebpart {
+		padding: 0;
+	}
+
+	.itemButton {
+		padding: 14px;
+	}
+
+	.itemContent {
+		padding: 0;
+	}
+
+	.itemContentWrap {
+		padding: 0 14px 14px;
+	}
+}

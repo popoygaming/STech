@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.6",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "people-directory-from-list",
+    "libraryId": "bbe2466e-8e27-4574-8f22-1287f35c2910",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "People Directory From List",
+    "solutionShortDescription": "People Directory From List description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

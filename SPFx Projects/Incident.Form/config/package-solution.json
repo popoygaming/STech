@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Intranet Incident Form",
+    "id": "1e4a224d-9cbb-4f82-b21d-3b7d52ba1258",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Incident Form description"
+      },
+      "longDescription": {
+        "default": "Incident Form description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Intranet Incident Form Feature",
+        "description": "The feature that activates elements of the intranet-incident-form solution.",
+        "id": "e3b00126-b628-4dad-8ed8-3166e05cda31",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/intranet-incident-form.sppkg"
+  }
+}

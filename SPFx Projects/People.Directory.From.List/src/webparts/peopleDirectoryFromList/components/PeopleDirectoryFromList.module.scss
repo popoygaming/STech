@@ -1,0 +1,164 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.peopleDirectoryFromList {
+	padding: 12px;
+}
+
+.webPartTitle {
+	margin: 0 0 12px 0;
+}
+
+.searchBoxWrapper {
+	margin: 0 10px 12px 10px;
+	max-width: 520px;
+	width: calc(100% - 20px);
+}
+
+.searchBox {
+	:global {
+		.ms-SearchBox {
+			border: 1px solid "[theme:neutralLight, default:#edebe9]";
+			border-radius: 999px;
+			background: "[theme:white, default:#ffffff]";
+			min-height: 40px;
+		}
+
+		.ms-SearchBox:hover {
+			border-color: "[theme:themePrimary, default:#0078d4]";
+		}
+
+		.ms-SearchBox.is-active {
+			border-color: "[theme:themePrimary, default:#0078d4]";
+			box-shadow: 0 0 0 1px "[theme:themePrimary, default:#0078d4]";
+		}
+
+		.ms-SearchBox-field {
+			font-size: 14px;
+		}
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.searchBoxWrapper {
+		max-width: none;
+		width: calc(100% - 20px);
+		margin: 0 10px 10px 10px;
+	}
+}
+
+.defaultCard {
+	.documentCardContainer {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: left;
+		column-gap: 20px;
+		row-gap: 30px;
+	}
+}
+
+.documentCardItem {
+	margin-right: 0;
+	flex: 0 0 345px;
+}
+
+.personaCard {
+	margin: 0;
+
+	:global {
+		.ms-Persona-optionalText,
+		.ms-Persona-tertiaryText {
+			display: initial;
+		}
+
+		.ms-Persona-primaryText,
+		.ms-Persona-secondaryText,
+		.ms-Persona-optionalText,
+		.ms-Persona-tertiaryText {
+			width: 213px;
+		}
+	}
+}
+
+.livePersonaCard {
+	display: block;
+}
+
+.hoverDetails {
+	min-width: 280px;
+	max-width: 320px;
+	padding: 12px;
+}
+
+.hoverPersona {
+	margin-bottom: 8px;
+
+	:global {
+		.ms-Persona-optionalText,
+		.ms-Persona-tertiaryText {
+			display: initial;
+		}
+
+		.ms-Persona-primaryText,
+		.ms-Persona-secondaryText,
+		.ms-Persona-optionalText,
+		.ms-Persona-tertiaryText {
+			width: 200px;
+		}
+	}
+}
+
+.hoverLine {
+	margin: 4px 0;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin: 10px;
+	padding: 8px 10px;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	// border: 1px solid "[theme:neutralLight, default:#edebe9]";
+	border-radius: 999px;
+	background: "[theme:neutralLighterAlt, default:#faf9f8]";
+}
+
+.paginationControls {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.paginationButton {
+	:global {
+		.ms-Button {
+			border: 1px solid "[theme:neutralLight, default:#edebe9]";
+			border-radius: 999px;
+			background: "[theme:white, default:#ffffff]";
+		}
+
+		.ms-Button:hover {
+			background: "[theme:neutralLighter, default:#f3f2f1]";
+		}
+
+		.ms-Button-icon {
+			color: "[theme:themePrimary, default:#0078d4]";
+		}
+	}
+}
+
+.pageInfo {
+	min-width: 110px;
+	text-align: center;
+	padding: 4px 10px;
+	border-radius: 999px;
+	background: "[theme:white, default:#ffffff]";
+	border: 1px solid "[theme:neutralLight, default:#edebe9]";
+}
+
+.pageSummary {
+	color: "[theme:neutralPrimary, default:#323130]";
+}

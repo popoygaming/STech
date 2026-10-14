@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.6",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.24.0"
+    },
+    "version": "1.20.0",
+    "libraryName": "incident-form",
+    "libraryId": "1e4a224d-9cbb-4f82-b21d-3b7d52ba1258",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Incident Form",
+    "solutionShortDescription": "Incident Form description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

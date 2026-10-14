@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "323bb85d-eccf-4f61-a942-8d9cc7400920",
+  "alias": "IncidentReportingFormWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced" },
+    "title": { "default": "Incident Reporting Form" },
+    "description": { "default": "Incident reporting form" },
+    "officeFabricIconFontName": "FormLibrary",
+    "properties": {
+      "title": "Incident Reporting Form",
+      "showTitle": true,
+      "listId": "16539E6B-6D91-48B9-A5CA-409553946C50",
+      "notificationRecipients": "sharepointconsultant@smarttech.com.au",
+      "successMessage": "Incident has been submitted successfully.",
+      "errorMessage": "Unable to submit incident. Please try again.",
+      "fullNameInfo": "Enter the full name of the person submitting or involved in the incident.",
+      "occupationRoleInfo": "Enter the job title or role of the person involved.",
+      "addressOfIncidentInfo": "Provide the physical address where the incident happened.",
+      "locationNameOfIncidentInfo": "Enter the location name, site, or department of the incident.",
+      "dateOfIncidentInfo": "Select the date when the incident took place.",
+      "timeOfIncidentInfo": "Select the time when the incident occurred.",
+      "dateReportedInfo": "Select the date when this incident was reported.",
+      "timeReportedInfo": "Select the time when this incident was reported.",
+      "supervisorInfo": "Enter the supervisor name associated with the incident.",
+      "witnessInfo": "Enter witness details if available.",
+      "typeOfIncidentInfo": "Choose the incident category from the dropdown list.",
+      "whoWasInjuredInfo": "Enter the full name of the injured person.",
+      "equipmentDamagedInfo": "Specify damaged equipment name if any.",
+      "equipmentIdentifyingNumberInfo": "Provide the equipment ID, serial, or asset number.",
+      "damagedEquipmentDescriptionInfo": "Describe the damage observed on the equipment.",
+      "descriptionOfIncidentInfo": "Describe all relevant background information, sequence of events leading to the incident, what occurred that precipitated the accident, the mechanism of accident and who did you contact after.",
+      "immediateActionsTakenInfo": "Describe actions done immediately after incident, such as first aid or area isolation.",
+      "attachmentsInfo": "Upload photos or files that support the incident details."
+    }
+  }]
+}

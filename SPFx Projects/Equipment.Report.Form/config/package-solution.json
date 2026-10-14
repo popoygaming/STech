@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Maintenance or Fleet Request Form",
+    "id": "99c2e99a-0743-4819-b1f1-84ba277985d1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.20.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Maintenance or Fleet Request Form description"
+      },
+      "longDescription": {
+        "default": "Maintenance or Fleet Request Form description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "Maintenance or Fleet Request Form Feature",
+        "description": "The feature that activates elements of the Maintenance or Fleet Request Form solution.",
+        "id": "56102c46-b5fa-499a-923e-06843adaf774",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/maintenance-or-fleet-request-form.sppkg"
+  }
+}

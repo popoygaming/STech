@@ -1,0 +1,32 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 10px 10px;
+}
+
+.errorText {
+  color: #a80000;
+  font-size: 0.875rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.5rem 0;
+}
+
+.subTitle {
+  margin: 0 0 1.5rem 0;
+  line-height: 1.4;
+}
+
+/* ensure full width on very small screens */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px 5px;
+  }
+}

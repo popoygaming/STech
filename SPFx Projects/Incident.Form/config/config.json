@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "incident-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/incidentForm/IncidentFormWebPart.js",
+          "manifest": "./src/webparts/incidentForm/IncidentFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IncidentFormWebPartStrings": "lib/webparts/incidentForm/loc/{locale}.js"
+  }
+}
